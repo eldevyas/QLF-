@@ -14,7 +14,7 @@ While developing this website I passed through 3 phases:
 
 
 2. UI Design to HTML/CSS: 
-   - That was maybe the shortest part of project, CSS translation is very short compared with the JavaScript one.
+   - That was maybe the easiest part for me of the project, CSS translation is very short compared with the JavaScript one.
 
 3. JavaScript Development:
    - I already had a goal to make this website just to learn JavaScript basics, but I ended up with having notions about JQuery, AJAX, and JSON files also.
