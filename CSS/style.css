@@ -1697,7 +1697,7 @@ ul li a {
 .about2,
 .about3 {
     position: relative;
-    top: -10vw;
+    top: -5vw;
     transition: 0.5s all ease-in-out;
 }
 
