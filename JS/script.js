@@ -525,8 +525,8 @@ window.addEventListener("keydown", onKeyDown, false);
 
 navigator.mediaSession.setActionHandler('play', function() {playMusic() });
 navigator.mediaSession.setActionHandler('pause', function() {pauseMusic() });
-navigator.mediaSession.setActionHandler('seekbackward', function() { CurrentMusic.currentTime -= 10; });
-navigator.mediaSession.setActionHandler('seekforward', function() { CurrentMusic.currentTime += 10; });
+navigator.mediaSession.setActionHandler('seekbackward', function() { prevMusic(); });
+navigator.mediaSession.setActionHandler('seekforward', function() { nextMusic() ; });
 navigator.mediaSession.setActionHandler('previoustrack', function() { prevMusic() });
 navigator.mediaSession.setActionHandler('nexttrack', function() { nextMusic() });
 
