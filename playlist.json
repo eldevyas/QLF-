@@ -1,0 +1,178 @@
+{
+    "tracks": [
+        {
+            "name": "Uranus",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Uranus.mp3"
+        },
+        {
+            "name": "Autre monde",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Autre monde.mp3"
+        },
+        {
+            "name": "Menace",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Menace.mp3"
+        },
+        {
+            "name": "Sheita",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Sheita.mp3"
+        },
+        {
+            "name": "Shenmue",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Shenmue.mp3"
+        },
+        {
+            "name": "Sur Paname",
+            "artist": "PNL",
+            "img": "images/albums/le-monde-chico.jpg",
+            "src": "Music/Sur Paname.mp3"
+        },
+        {
+            "name": "Onizuka",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Onizuka.mp3"
+        },
+        {
+            "name": "Le monde ou rien",
+            "artist": "PNL",
+            "img": "images/albums/le-monde-chico.jpg",
+            "src": "Music/Le monde ou rien.mp3"
+        },
+        {
+            "name": "J'suis QLF",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/J'suis QLF.mp3"
+        },
+        {
+            "name": "Blanka",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Blanka.mp3"
+        },
+        {
+            "name": "A l'Ammoniaque",
+            "artist": "PNL",
+            "img": "/images/albums/deux-freres.jpg",
+            "src": "Music/A l'Ammoniaque.mp3"
+        },
+        {
+            "name": "Mira",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Mira.mp3"
+        },
+        {
+            "name": "J'suis PNL",
+            "artist": "PNL",
+            "img": "images/albums/que-la-famille.jpg",
+            "src": "Music/J suis PNL.mp3"
+        },
+        {
+            "name": "Tempête",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Tempête.mp3"
+        },
+        {
+            "name": "Frontières",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Frontieres.mp3"
+        },
+        {
+            "name": "Oh Lala",
+            "artist": "PNL",
+            "img": "images/albums/que-la-famille.jpg",
+            "src": "Music/Oh Lala.mp3"
+        },
+        {
+            "name": "Cœurs",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Cœurs.mp3"
+        },
+        {
+            "name": "Zoulou tchaing",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Zoulou tchaing.mp3"
+        },
+        {
+            "name": "Naha",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Naha.mp3"
+        },
+        {
+            "name": "Capuche",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Capuche.mp3"
+        },
+        {
+            "name": "Déconnecté",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Déconnecté.mp3"
+        },
+        {
+            "name": "Comme pas deux",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Comme pas deux.mp3"
+        },
+        {
+            "name": "Chang",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Chang.mp3"
+        },
+        {
+            "name": "Dans ta rue",
+            "artist": "PNL",
+            "img": "images/albums/le-monde-chico.jpg",
+            "src": "Music/Dans ta rue.mp3"
+        },
+        {
+            "name": "Bang",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Bang.mp3"
+        },
+        {
+            "name": "Différents",
+            "artist": "PNL",
+            "img": "images/albums/que-la-famille.jpg",
+            "src": "Music/Différents.mp3"
+        },
+        {
+            "name": "Kuta ubud",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Kuta ubud.mp3"
+        },
+        {
+            "name": "Je t'haine",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Je t haine.mp3"
+        },
+        {
+            "name": "Celsius",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Celsius.mp3"
+        }
+    ]
+}
