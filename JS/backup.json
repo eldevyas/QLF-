@@ -1,0 +1,64 @@
+{
+    "tracks": [
+        {
+            "name": "Uranus",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Uranus.mp3"
+        },
+        {
+            "name": "Autre monde",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Autre monde.mp3"
+        },
+        {
+            "name": "Cramés",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Cramés.mp3"
+        },
+        {
+            "name": "Frontières",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Frontières.mp3"
+        },
+        {
+            "name": "Menace",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Menace.mp3"
+        },
+        {
+            "name": "Sheita",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Sheita.mp3"
+        },
+        {
+            "name": "Shenmue",
+            "artist": "PNL",
+            "img": "images/albums/deux-freres.jpg",
+            "src": "Music/Shenmue.mp3"
+        },
+        {
+            "name": "Sur Paname",
+            "artist": "PNL",
+            "img": "images/albums/Le Monde Chico.jpg",
+            "src": "Music/Sur Paname.mp3"
+        },
+        {
+            "name": "Onizuka",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Sur Paname.mp3"
+        },
+        {
+            "name": "Onizuka",
+            "artist": "PNL",
+            "img": "images/albums/dans-la-legende.jpg",
+            "src": "Music/Onizuka.mp3"
+        }
+    ]
+}
