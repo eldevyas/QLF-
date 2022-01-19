@@ -534,7 +534,7 @@ i {
 .album {
     display: flex;
     align-items: center;
-    width: 15vw;
+    width: 25vw;
 }
 
 .album img {
