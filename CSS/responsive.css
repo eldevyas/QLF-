@@ -1,0 +1,197 @@
+/*---  Making Header Responsive ---*/
+
+@media (max-width: 1120px),
+(max-width: 700px) {
+    .content {
+        margin-top: 20vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-auto-columns: 80vh;
+        grid-template-rows: 1vh 80%;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        place-items: center;
+    }
+
+    .content-text{
+        margin-top: 30vh;
+        align-items: center; /* left and right */
+        justify-content: center; /* up and down */
+    }
+
+    .content img {
+        width: 25vw;
+        height: auto;
+    }
+    .content-text h1 {
+        font-size: 3.5vw;
+        transition: 1s all ease-in-out;
+    }
+    .content-text h2 {
+        font-size: 2vw;
+        transition: 1s all ease-in-out;
+    }
+    .content-text h3 {
+        font-size: 1vw;
+        transition: 1s all ease-in-out;
+    }
+    .button {
+        font-size: 1.25vw;
+        padding: 10px 25px;
+    }
+    .savoir-plus {
+        font-size: 1.25vw;
+        padding: 10px 25px;
+    }
+
+    .AudioPlayer .song{
+        display: none;
+    }
+
+    .current-time, .max-duration{
+        font-size: 0.5vw;
+    }
+
+    .volume-area{
+        display: none;
+    }
+
+    .controls {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        margin: 0vw 0vw;
+    }
+    
+    .material-icons.md-20 {
+        font-size: 15px;
+        color: rgb(180, 180, 180);
+        cursor: pointer;
+    }
+    
+    .material-icons.md-28 {
+        font-size: 20px;
+        padding: 5px;
+        background-color: #fff;
+        border-radius: 50px;
+        margin: 0px 10px;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    #shuffle, #repeat{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .header {
+        height: 100vh;
+        z-index: 0;
+    }
+    header {
+        width: 100vw !important;
+        margin: 5px 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        transition: 1s all ease-in-out;
+    }
+    header img {
+        transform: scale(0.6);
+        margin: 0px;
+        transition: 1s all ease-in-out;
+    }
+    header i {
+        transform: scale(0.6);
+        margin: 0px;
+        transition: 1s all ease-in-out;
+    }
+    header .logo {
+        transform: scale(0.55);
+        align-items: center;
+        margin-right: 50px;
+        transition: 1s all ease-in-out;
+    }
+    header .menu-icon {
+        transform: scale(0.5);
+        margin-left: 50px;
+        transition: 1s all ease-in-out;
+    }
+    .content {
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 40vh 50vh;
+    }
+    .content img {
+        width: 30vw;
+        transition: 1s all ease-in-out;
+        position: sticky;
+    }
+
+    .content-text{
+        margin-top: 10vw;
+        width: 100vw;
+    }
+
+    .content-text h1{
+        font-size: 6vw;
+    }
+
+    .content-text h3{
+        font-size: 3vw;
+    }
+
+
+    .content-text h2{
+        font-size: 4vw;
+    }
+
+    .button{
+        font-size: 3vw;
+    }
+
+    .savoir-plus{
+        font-size: 3vw;
+    }
+
+    .AudioPlayer {
+        margin-top: -10vh;
+        width: 95vw;
+        padding-right: 10vw;
+    }
+
+    .controls{
+        padding: 0 1vw;
+    }
+
+
+    .volume-area{
+        width: 0;
+    }
+
+    .volume{
+        width: 1vw;
+        padding: 0;
+        margin: 0;
+        float: right;
+    }
+
+    .playlist{
+        margin: 0;
+        padding: 0;
+        width: 1vw;
+        float: right;
+    }
+
+    .about,
+    .about2,
+    .about3 {
+        position: relative;
+        top: -5vw;
+        transition: 0.5s all ease-in-out;
+    }
+}
