@@ -49,7 +49,6 @@ window.addEventListener('load', () => {
 
 
 
-
 //Load Music
 function loadMusic(indexNumb) {
     Name.innerText = allMusic[indexNumb - 1].name;
@@ -136,7 +135,6 @@ function prevMusic() {
 // Setting the no shuffle option as default 
 no_shuffle= true;
 shuffle= false;
-
 
 //Next Music function
 function nextMusic() {
@@ -270,7 +268,10 @@ repeatBtn.addEventListener("click", ()=>{
       repeatBtn.setAttribute("title", "Chanson en boucle");
       repeat = false;
       repeat_one = true;
-      
+      shuffleBtn.innerText = "shuffle";
+      shuffleBtn.setAttribute("title", "Liste de lecture non mélangée");
+      shuffle = false;
+      no_shuffle = true;
       break;
     case "repeat_one":
       repeatBtn.innerText = "repeat";
@@ -293,6 +294,10 @@ shuffleBtn.addEventListener("click", ()=>{
         shuffleBtn.setAttribute("title", "Liste de lecture mélangée");
         shuffle = true;
         no_shuffle = false;
+        repeatBtn.innerText = "repeat";
+        repeatBtn.setAttribute("title", "Liste de lecture en boucle");
+        repeat = true;
+        repeat_one = false;
     }
     else if (shuffleBtn.innerText === "shuffle_on"){
         shuffleBtn.innerText = "shuffle";
@@ -306,13 +311,12 @@ shuffleBtn.addEventListener("click", ()=>{
 
 
 CurrentMusic.addEventListener("ended", ()=>{
-    let getText = repeatBtn.innerText;
     if (repeat && !shuffle){
         nextMusic();
         title();
         console.log("Repeat without shuffle")
     }
-    else if(shuffle && !repeat_one){
+    else if(shuffle){
         let randIndex = Math.floor((Math.random() * allMusic.length) + 1);
         do{
           randIndex = Math.floor((Math.random() * allMusic.length) + 1);
@@ -322,7 +326,7 @@ CurrentMusic.addEventListener("ended", ()=>{
         playMusic();
         playingSong();
         title();
-        console.log("Shuffled")
+        console.log("Shuffled");
     }
 
     else if(repeat_one){
