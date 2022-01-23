@@ -6,6 +6,7 @@
     box-sizing: border-box;
     color: white;
     user-select: none;
+    max-width: 100vw;
 }
 
 
@@ -510,7 +511,7 @@ i {
     grid-template-columns: 15vw 5vw 50vw 12vw 5vw  !important;
     justify-content: space-around !important;
     z-index: 18;
-    height: 7vh;
+    height: 65px;
     overflow: hidden;
 }
 
@@ -798,7 +799,7 @@ i {
 .music-list ul li .row {
     display: flex;
     justify-content: left;
-    width: 70vw;
+    width: 50vw;
     align-items: center;
 }
 
@@ -2405,4 +2406,103 @@ footer .social-media {
 #cls:hover{
     color: #8d0000;
     cursor: pointer;
+}
+
+
+/*--- Comments ---*/
+
+.comments{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-bottom: 5vw;
+}
+
+.comments-title{
+    width: 100%;
+    background-color: #151515;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.comments-title h1{
+    font-size: 2vw;
+    padding: 1vw 2vw;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 2vw;
+}
+
+
+.comments-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comments-list li{
+    width: 100%;
+    margin: 1vw 0;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.20);
+    padding: 0vw 2vw;
+    border-radius: 20px 20px 0 0;
+}
+
+.user .name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.name p{
+    font-size: 1.2vw;
+}
+
+.name img{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50px;
+    margin-right: 0.5vw;
+    filter: invert(1);
+}
+
+.subject{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2.5vw 2vw;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 20px 20px;
+}
+
+.date p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85vw;
+    text-align: right;
+}
+
+.commentaire{
+    color: rgba(238, 238, 238, 0.897) !important;
+    font-size: 1vw !important;
+    font-weight: 100 !important;
 }
