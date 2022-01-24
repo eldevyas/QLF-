@@ -51,7 +51,7 @@ for (let i = 0; i < PLAYLIST.length; i++) {
                             <p style= "font-size: 12px; font-weight: 100">${PLAYLIST[i].artist}</p>
                         </div>
                     </div>
-                    <span id="${(PLAYLIST[i].src).slice(6, -4).replace(/\s+/g, '').replace("'", '')}" class="audio-duration">Chargement...</span>
+                    <span id="${(PLAYLIST[i].src).slice(6, -4).replace(/\s+/g, '').replace("'", '')}" class="audio-duration"<div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></span>
                     <audio class="${(PLAYLIST[i].src).slice(6, -4).replace(/\s+/g, '').replace("'", '')}" src="Music/${(PLAYLIST[i].src).slice(6, -4)}.mp3"></audio>
                 </li>`;
     ulTag.insertAdjacentHTML("beforeend", liTag); //inserting the li inside ul tag
