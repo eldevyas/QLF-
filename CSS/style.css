@@ -2525,54 +2525,31 @@ footer .social-media {
   height: 14px;
   overflow: hidden;
   
-    position: absolute;
-  top: 0;
-  left: 0;
-}
 
 .pswp__preloader__donut--fake {
    box-sizing: border-box;
-
-  width: 14px;
-	height: 14px;
-	
-  
-  border: 2px solid red;
+   width: 14px;
+   height: 14px;
+   border: 2px solid red;
    border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-	background: none;
-	margin:0;
+   background: none;
+   margin:0;
 }
 
 .pswp__preloader__donut {
   box-sizing: border-box;
-
   width: 14px;
-	height: 14px;
-	
-  
+  height: 14px;
   border: 2px solid #FFF;
    border-radius: 50%;
   border-left-color: transparent;
   border-bottom-color: transparent;
-  
-    position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
- 
-  
-  
-	position: absolute;
-  top: 0;
-  left: 0;
-  
-	background: none;
-	margin:0;
-  
-    -webkit-animation: donut-rotate 1000ms cubic-bezier(.4,0,.22,1) infinite;
+  background: none;
+  margin:0;
+  -webkit-animation: donut-rotate 1000ms cubic-bezier(.4,0,.22,1) infinite;
   animation: donut-rotate 1000ms cubic-bezier(.4,0,.22,1) infinite;
 
 }
