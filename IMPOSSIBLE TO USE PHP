@@ -1,0 +1,1 @@
+Github doesn't accept dynamic websites, so the display comments part is deleted from the project, it was using AJAX, MySQL, JQuery and PHP to manage comments data without reloading the page on submitting.
